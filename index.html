@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ryuzi.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/917f80a39a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>RyuziVert Corps</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="ryuzi.html"><img src="assets/ryuzilogo.png" width="210" height="100"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">MEMBER</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+    <div class="text-box">
+        <h1>RyuziVert Corps</h1>
+        <p>Welcome to the official Ryuzivert Corps website.<br> A secret organization that only certain people know about.</p>
+        <a href="" class="hero-btn">Visit us to know more!</a>
+    </div>
+
+    </section>
+
+    <!-----About------>
+
+    <section class="About" data-aos="slide-up">
+        <h1>Four You Information</h1>
+        <p>Wanna know about us?</p>
+
+    <div class="row" data-aos="slide-up">
+        <div class="about-col">
+            <h3>Our Organization</h3>
+            <p>Our organization was formed since 2022 with 3 Division.</p>
+        </div>
+
+        <div class="about-col" data-aos="slide-up">
+            <h3>Location</h3>
+            <p>Our organization operates in Indonesia, West Java to be precise.</p>
+        </div>
+    
+        <div class="about-col" data-aos="slide-up">
+            <h3>What We Do?</h3>
+            <p>We perform several operations such as creating a website or developing a game. Sometimes we play games together.</p>
+        </div>
+    </div>
+
+
+    </section>
+
+    <section class="division" data-aos="slide-up">
+        <h1>Division</h1>
+        <p>We have 3 Division.</p>
+
+        <div class="row">
+            <div class="division-col" data-aos="slide-up">
+              <img src="assets/godvice.jpg">
+                 <div class="layer">
+                    <h3>God Vice</h3>
+                 </div>
+            </div>
+        
+            <div class="division-col" data-aos="slide-up">
+              <img src="assets/kurovice.jpg">
+                <div class="layer">
+                    <h3>Kuro Vice</h3>
+                </div>
+            </div>
+        
+            <div class="division-col" data-aos="slide-up">
+             <img src="assets/shirovice.jpg">
+               <div class="layer">
+                    <h3>Shiro Vice</h3>
+               </div>
+            </div>
+        
+
+            </div>
+        </div>
+
+    <!------Call To Action------>
+    <section class="cta" data-aos="slide-up">
+        <h1>Interested in joining us?</h1>
+        <a href="https://www.instagram.com/ramenntrash._/" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+
+    <!------Footer------>
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Thank you for your visit, we hope you come back here again.</p>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+
+
+    </section>
+
+
+
+
+    <!--------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right= "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right= "-200px";
+        }
+
+    </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+
+    
+</body>
+</html>
